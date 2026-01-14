@@ -1,0 +1,42 @@
+
+<api_design_task>
+Design a complete REST API for [your feature/product]
+</api_design_task>
+
+<business_requirements>
+<core_functionality>
+[What does this API need to do? Be specific about user actions]
+</core_functionality>
+
+<data_relationships>
+[How do your entities relate? Users → Posts → Comments, etc.]
+</data_relationships>
+
+<scale_expectations>
+- Expected requests per second: [number]
+- Data volume: [amount]
+- Geographic distribution: [regions]
+</scale_expectations>
+</business_requirements>
+
+<design_constraints>
+- Must be RESTful (no shortcuts)
+- Authentication: [JWT/OAuth/etc.]
+- Rate limiting: [requirements]
+- Versioning strategy: [URL/header/etc.]
+</design_constraints>
+
+<deliverables>
+1. Complete endpoint list with HTTP methods
+2. Request/response schemas in JSON
+3. Error handling patterns with status codes
+4. Authentication flow diagram
+5. Rate limiting strategy
+6. Database schema recommendations
+7. Caching strategy for read-heavy endpoints
+</deliverables>
+
+<success_criteria>
+The API should be intuitive enough that a frontend dev can use it without asking questions.
+</success_criteria>
+</api_design_task>

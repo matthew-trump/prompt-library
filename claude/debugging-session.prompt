@@ -1,0 +1,32 @@
+
+<debugging_session>
+<bug_description>
+[Describe what's happening vs what should happen]
+</bug_description>
+
+<error_logs>
+[Paste actual error messages or unexpected behavior]
+</error_logs>
+
+<code_context>
+<relevant_files>
+[Paste the files involved - models, controllers, components]
+</relevant_files>
+
+<recent_changes>
+[What did you change before this broke?]
+</recent_changes>
+</code_context>
+
+<investigation_requirements>
+1. Identify the root cause (not just symptoms)
+2. Explain WHY this is happening (teach me)
+3. Provide the fix with inline comments
+4. Suggest how to prevent this category of bug in the future
+5. Write a test case that would have caught this
+</investigation_requirements>
+
+<response_style>
+Think step-by-step like a debugging session. Show your reasoning process.
+</response_style>
+</debugging_session>

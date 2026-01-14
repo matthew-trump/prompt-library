@@ -1,0 +1,43 @@
+<security_audit>
+Perform a comprehensive security audit of my codebase
+</security_audit>
+
+<code_to_audit>
+[Paste authentication, authorization, data handling, API endpoints]
+</code_to_audit>
+
+<application_context>
+<type>[Web app/API/Mobile backend/etc.]</type>
+<sensitive_data>[What user data do you handle?]</sensitive_data>
+<compliance_requirements>[GDPR/HIPAA/PCI-DSS/etc.]</compliance_requirements>
+<current_security_measures>[What you already have: JWT, HTTPS, rate limiting, etc.]</current_security_measures>
+</application_context>
+
+<audit_checklist>
+1. Authentication vulnerabilities (weak passwords, session management)
+2. Authorization flaws (privilege escalation, IDOR)
+3. Input validation (SQL injection, XSS, command injection)
+4. Data exposure (sensitive data in logs, responses, errors)
+5. Cryptography issues (weak algorithms, key management)
+6. API security (rate limiting, CORS, authentication bypass)
+7. Dependency vulnerabilities (outdated packages)
+8. Configuration issues (debug mode, exposed endpoints)
+</audit_checklist>
+
+<output_format>
+For each vulnerability found:
+- Severity: [Critical/High/Medium/Low]
+- Location: [Exact file and line]
+- Exploit scenario: [How an attacker would abuse this]
+- Fix: [Exact code change needed]
+- Prevention: [How to avoid this pattern in future]
+</output_format>
+
+<priorities>
+Focus on vulnerabilities that could lead to:
+1. Data breaches
+2. Account takeovers
+3. Financial loss
+4. Compliance violations
+</priorities>
+</security_audit>

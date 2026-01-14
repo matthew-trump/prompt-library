@@ -1,0 +1,33 @@
+<task>
+Review the architecture of my [project type] and provide a comprehensive analysis
+</task>
+
+<context>
+<tech_stack>
+[Your technologies: e.g., React, Node.js, PostgreSQL, Redis]
+</tech_stack>
+
+<current_structure>
+[Paste your folder structure or describe your architecture]
+</current_structure>
+
+<requirements>
+- Must handle [X] concurrent users
+- Need to support [specific features]
+- Planning to scale to [target scale]
+</requirements>
+</context>
+
+<output_format>
+1. Architecture strengths (what's working well)
+2. Critical bottlenecks (what will break at scale)
+3. Security vulnerabilities (what could go wrong)
+4. Recommended improvements (specific, actionable changes)
+5. Implementation priority (what to fix first)
+</output_format>
+
+<constraints>
+- Focus on production-ready solutions
+- Consider cost implications
+- Prioritize maintainability over clever code
+</constraints>

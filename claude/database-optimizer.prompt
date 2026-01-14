@@ -1,0 +1,43 @@
+<database_optimization>
+Optimize my database queries and schema for production performance
+</database_optimization>
+
+<current_situation>
+<schema>
+[Paste your database schema - tables, columns, relationships]
+</schema>
+
+<problematic_queries>
+[Paste the slow queries with EXPLAIN ANALYZE output if available]
+</problematic_queries>
+
+<performance_metrics>
+- Current query time: [time]
+- Expected query time: [target]
+- Query frequency: [calls per second]
+- Data volume: [rows in relevant tables]
+</performance_metrics>
+</current_situation>
+
+<optimization_scope>
+1. Index recommendations (what's missing, what's unused)
+2. Query rewrites (more efficient SQL)
+3. Schema improvements (normalization, denormalization decisions)
+4. Caching strategies (what to cache, where, for how long)
+5. Partitioning recommendations (if applicable)
+</optimization_scope>
+
+<analysis_requirements>
+- Explain the root cause of slowness
+- Show the performance impact of each change
+- Consider write vs read trade-offs
+- Account for data growth over next 2 years
+</analysis_requirements>
+
+<deliverables>
+1. Prioritized list of changes (biggest impact first)
+2. Migration scripts (ALTER TABLE statements)
+3. Before/after query plans
+4. Estimated performance improvements
+</deliverables>
+</database_optimization>

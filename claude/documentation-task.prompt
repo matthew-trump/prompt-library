@@ -1,0 +1,70 @@
+<documentation_task>
+Create production-ready documentation for this codebase
+</documentation_task>
+
+<code_context>
+<codebase>
+[Paste key files: main logic, API routes, complex algorithms]
+</codebase>
+
+<project_info>
+- Project name: [name]
+- Purpose: [what does this solve?]
+- Target users: [who uses this?]
+- Tech stack: [technologies]
+</project_info>
+</code_context>
+
+<documentation_requirements>
+<readme_structure>
+1. Project overview (one paragraph - what and why)
+2. Features (bullet points - what it does)
+3. Installation (step-by-step - how to set up)
+4. Configuration (environment variables, settings)
+5. Usage examples (actual code samples)
+6. API documentation (if applicable)
+7. Architecture overview (how it works)
+8. Contributing guidelines (how to help)
+9. Troubleshooting (common issues)
+</readme_structure>
+
+<code_comments>
+- Add inline comments for complex logic
+- Explain WHY not WHAT (code shows what)
+- Document function parameters and return values
+- Add examples for non-obvious usage
+</code_comments>
+
+<api_documentation>
+For each endpoint:
+- Purpose
+- Authentication requirements
+- Request format (with example)
+- Response format (with example)
+- Error responses (with status codes)
+- Rate limits
+</api_documentation>
+</documentation_requirements>
+
+<audience_considerations>
+Write for:
+- New team members (onboarding in 1 hour)
+- Future you (6 months later)
+- Open source contributors (if applicable)
+</audience_considerations>
+
+<output_format>
+1. Complete README. md
+2. Inline code documentation
+3. API. md (if applicable)
+4. CONTRIBUTING. md (if open source)
+5. Architecture diagram description (in text/markdown)
+</output_format>
+
+<quality_standards>
+- Use clear, simple language (no jargon without explanation)
+- Include real working examples
+- Keep it up-to-date (no outdated screenshots or commands)
+- Make it scannable (headers, bullets, code blocks)
+</quality_standards>
+</documentation_task>

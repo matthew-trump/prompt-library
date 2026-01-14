@@ -1,0 +1,40 @@
+<refactoring_request>
+Refactor this code to be production-grade while maintaining exact functionality
+</refactoring_request>
+
+<current_code>
+[Paste your messy code here]
+</current_code>
+
+<context>
+<current_issues>
+[What problems are you seeing? Slow? Hard to test? Confusing logic?]
+</current_issues>
+
+<constraints>
+- Cannot change external API behavior
+- Must maintain backward compatibility
+- Need to add tests afterward
+</constraints>
+</context>
+
+<refactoring_priorities>
+1. Readability (future devs should understand this in 30 seconds)
+2. Performance (identify and fix bottlenecks)
+3. Testability (make it easy to unit test)
+4. Error handling (no silent failures)
+5. Type safety (add proper TypeScript types if applicable)
+</refactoring_priorities>
+
+<output_requirements>
+- Show before/after comparison
+- Explain EVERY significant change
+- Highlight potential breaking changes (even subtle ones)
+- Provide migration guide if data structures changed
+- Include performance impact analysis
+</output_requirements>
+
+<testing_guide>
+Also provide 3-5 test cases that prove the refactored code works identically.
+</testing_guide>
+</refactoring_request>
